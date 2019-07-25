@@ -1,0 +1,33 @@
+{
+    "name": "oilstone/loqate",
+    "description": "PHP interface to Loqate services",
+    "keywords": [
+        "loqate"
+    ],
+    "homepage": "https://github.com/oilstone/loqate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Online Solutions Ltd.",
+            "email": "support@onlinesolutionsltd.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Oilstone\\Loqate\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Oilstone\\Loqate\\Integrations\\Laravel\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": "^5.8",
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*"
+    }
+}
