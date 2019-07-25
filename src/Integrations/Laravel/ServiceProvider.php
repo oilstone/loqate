@@ -43,7 +43,7 @@ class ServiceProvider extends BaseServiceProvider
 
         $this->mergeConfigFrom($configPath, 'loqate');
 
-        $this->app->bind('loqate', function ($app) {
+        $this->app->bind(Loqate::class, function ($app) {
             return new Loqate(new Client([
                 'verify' => !$this->app->environment('local'),
             ]), config('loqate'));
