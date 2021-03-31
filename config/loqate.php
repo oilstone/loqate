@@ -9,6 +9,8 @@ return [
         'find' => 'Capture/Interactive/Find/v1.1/',
 
         'retrieve' => 'Capture/Interactive/Retrieve/v1/',
+
+        'verifyBankAccount' => 'BankAccountValidation/Interactive/Validate/v2.00/',
     ],
 
     'endpoint' => [

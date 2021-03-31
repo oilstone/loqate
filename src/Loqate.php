@@ -12,6 +12,7 @@ use Illuminate\Support\Str;
  * @package Oilstone\Loqate
  * @method string find(array $parameters)
  * @method string retrieve(array $parameters)
+ * @method string verifyBankAccount(array $parameters)
  */
 class Loqate
 {
