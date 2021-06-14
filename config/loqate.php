@@ -11,6 +11,8 @@ return [
         'retrieve' => 'Capture/Interactive/Retrieve/v1/',
 
         'verifyBankAccount' => 'BankAccountValidation/Interactive/Validate/v2.00/',
+
+        'retrieveBySortcode' => 'BankAccountValidation/Interactive/RetrieveBySortcode/v1/',
     ],
 
     'endpoint' => [
